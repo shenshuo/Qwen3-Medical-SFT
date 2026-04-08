@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import torch
 from datasets import Dataset
-from huggingface_hub import snapshot_download
+from modelscope import snapshot_download
 from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments, Trainer, DataCollatorForSeq2Seq
 import os
 import swanlab
